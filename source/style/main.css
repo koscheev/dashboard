@@ -366,29 +366,40 @@ textarea {
 }
 
 .wrap {
+  position: relative;
   max-width: 1368px;
   margin: 0 auto;
   overflow: hidden;
+  background: #99cc66;
 }
 
 .nav {
-  width: 74px;
-  height: 1000px;
+  position: absolute;
+  left: 0;
+  width: 75px;
+  background: #ff3300;
 }
 
 .nav .logo {
-  width: 70px;
-  height: 71px;
+  display: block;
+  width: 75px;
+  height: 75px;
+  font-size: 30px;
+  background: #ffeeff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff3333;
 }
 
 .nav .nav-items {
-  width: 70px;
-  height: 929px;
+  width: 75px;
+  height: 890px;
 }
 
 .header {
-  width: 1298px;
-  height: 169px;
+  height: 170px;
+  background: #cccccc;
+  padding-left: 75px;
 }
 
 .header .header-items {
@@ -402,8 +413,7 @@ textarea {
 }
 
 .main {
-  width: 990px;
-  height: 795px;
+  width: 1020px;
   background: #ccffff;
 }
 
@@ -438,8 +448,8 @@ textarea {
 }
 
 .aside {
-  width: 273px;
-  height: 889px;
+  height: 550px;
+  background: #99cccc;
 }
 
 .aside .likes {
@@ -458,7 +468,18 @@ textarea {
 }
 
 .footer {
-  width: 229px;
-  height: 835px;
+  background: #ccff99;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 75px;
+}
+
+.container__iner {
+  width: 273px;
+  height: 830px;
 }
 /*# sourceMappingURL=main.css.map */

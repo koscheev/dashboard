@@ -1,15 +1,25 @@
 // navigation 2 blocks logo and ul
 .nav {
-    width: 74px;
-    height: 1000px;
+    position: absolute;
+    left: 0;
+    width: 75px;
+    // height: 1000px;
+    background: #ff3300;
+
 
     .logo {
-        width: 70px;
-        height: 71px;
+        display: block;
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+        background: #ffeeff;
+        text-align: center;
+        text-transform: uppercase; 
+        color: #ff3333;    
     }
 
     .nav-items {
-        width: 70px;
-        height: 929px;
+        width: 75px;
+        height: 890px;
     }
 }
