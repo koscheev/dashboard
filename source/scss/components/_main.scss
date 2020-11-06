@@ -2,35 +2,36 @@
     width: 990px;
     height: 795px;
     background: #ccffff;
-}
+
 
 // for all blokcs padding 30px
-.main__monthly {
-    width: 704px;
-    height: 266px;
-}
+    .monthly {
+        width: 704px;
+        height: 266px;
+    }
 
-.main__revenue {
-    width: 264px;
-    height: 266px;
-}
+    .revenue {
+        width: 264px;
+        height: 266px;
+    }
 
-.main__customers {
-    width: 467px;
-    height: 508px;
-}
+    .customers {
+        width: 467px;
+        height: 508px;
+    }
 
-.main__toodays {
-    width: 501px;
-    height: 245px;
-}
+    .toodays {
+        width: 501px;
+        height: 245px;
+    }
 
-.main__progress {
-    width: 241px;
-    height: 245px;
-}
+    .progress {
+        width: 241px;
+        height: 245px;
+    }
 
-.main__shipments {
-    width: 241px;
-    height: 245px;
+    .shipments {
+        width: 241px;
+        height: 245px;
+    }
 }

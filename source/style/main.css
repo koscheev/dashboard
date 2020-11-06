@@ -370,4 +370,95 @@ textarea {
   margin: 0 auto;
   overflow: hidden;
 }
+
+.nav {
+  width: 74px;
+  height: 1000px;
+}
+
+.nav .logo {
+  width: 70px;
+  height: 71px;
+}
+
+.nav .nav-items {
+  width: 70px;
+  height: 929px;
+}
+
+.header {
+  width: 1298px;
+  height: 169px;
+}
+
+.header .header-items {
+  width: 1298px;
+  height: 71px;
+}
+
+.header .daily {
+  width: 1298px;
+  height: 98px;
+}
+
+.main {
+  width: 990px;
+  height: 795px;
+  background: #ccffff;
+}
+
+.main .monthly {
+  width: 704px;
+  height: 266px;
+}
+
+.main .revenue {
+  width: 264px;
+  height: 266px;
+}
+
+.main .customers {
+  width: 467px;
+  height: 508px;
+}
+
+.main .toodays {
+  width: 501px;
+  height: 245px;
+}
+
+.main .progress {
+  width: 241px;
+  height: 245px;
+}
+
+.main .shipments {
+  width: 241px;
+  height: 245px;
+}
+
+.aside {
+  width: 273px;
+  height: 889px;
+}
+
+.aside .likes {
+  width: 271px;
+  height: 48px;
+}
+
+.aside .users {
+  width: 271px;
+  height: 516px;
+}
+
+.aside .search {
+  width: 271px;
+  height: 48px;
+}
+
+.footer {
+  width: 229px;
+  height: 835px;
+}
 /*# sourceMappingURL=main.css.map */
