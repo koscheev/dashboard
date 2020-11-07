@@ -1,19 +1,18 @@
 .aside {
-    // width: 273px;
     height: 550px;
     background: #99cccc;
-
-    .likes {
+    
+    // pepople message likes
+    &__menu {
         width: 271px;
         height: 48px;
-    }
-
-    .users {
+    
+    &__cadrs {
         width: 271px;
         height: 516px;
     }
 
-    .search {
+    &__search {
         width: 271px;
         height: 48px;
     }

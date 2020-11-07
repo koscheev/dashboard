@@ -4,10 +4,9 @@
     left: 0;
     width: 75px;
     // height: 1000px;
-    background: #ff3300;
+    background: linear-gradient( to bottom, #FA745A 0%, #FD5272 100%);
 
-
-    .logo {
+    &__logo {
         display: block;
         width: 75px;
         height: 75px;
@@ -18,7 +17,7 @@
         color: #ff3333;    
     }
 
-    .nav-items {
+    &__nav-items {
         width: 75px;
         height: 890px;
     }

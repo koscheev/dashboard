@@ -1,37 +1,77 @@
 .main {
+    display: flex;
+    flex-wrap: wrap;
     width: 1020px;
-    // height: 795px;
-    background: #ccffff;
+    padding-left: 75px;
 
-
-// for all blokcs padding 30px
-    .monthly {
-        width: 704px;
-        height: 266px;
+    // monhly revonue progress
+    &__header {
+        width: 700px;
+        height: 260px;
     }
 
-    .revenue {
-        width: 264px;
-        height: 266px;
+    // costomers feed
+    &__aside {
+        width: 460px;
+        height: 500px;
+
     }
 
-    .customers {
-        width: 467px;
-        height: 508px;
+    // revenue progress shipments
+    &__footer {
+        width: 260px;
+        height: 260px;
     }
 
-    .toodays {
-        width: 501px;
-        height: 245px;
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        width: 273px;
+        height: 830px;
+
+        &__todo {
+            width: 500px;
+            height: 245px;
+        }
+
+        &__footer {
+            width: 260px;
+            height: 260px;
+        }
+
     }
 
-    .progress {
-        width: 241px;
-        height: 245px;
-    }
+}
 
-    .shipments {
-        width: 241px;
-        height: 245px;
-    }
+
+
+    // .monthly {
+    //     width: 704px;
+    //     height: 266px;
+    // }
+
+    // .revenue {
+    //     width: 264px;
+    //     height: 266px;
+    // }
+
+    // .customers {
+    //     width: 467px;
+    //     height: 508px;
+    // }
+
+    // .toodays {
+    //     width: 501px;
+    //     height: 245px;
+    // }
+
+    // .progress {
+    //     width: 241px;
+    //     height: 245px;
+    // }
+
+    // .shipments {
+    //     width: 241px;
+    //     height: 245px;
+    // }
 }
