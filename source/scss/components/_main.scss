@@ -1,26 +1,24 @@
-$min-card-size: 265px;
+$min-card-size: 250px;
 
 
 .main {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
-    width: 1020px;
-    height: 795px;
-    padding-left: 75px;
-
+   
     // monhly revonue progress
 
     &__monthly {
         width: 755px;
-        height: $min-card-size;
+        height: 250px;
         background-color: aqua;
     }
 
-    &__revenue {
-        height: $min-card-size;
-        width: $min-card-size;
+    &__card {
+        height: 250px;
+        width: 250px;
         background-color: darkcyan;
+        margin: 5px;
     }
 
     &__customers {
@@ -31,9 +29,15 @@ $min-card-size: 265px;
 
     &__inner {
         display: flex;
-        flex-wrap: wrap ;
-        height: 500px;
+        flex-wrap: wrap;
+        height: 520px;
+        width: 520px;
+        background-color: aqua;
+    }
+
+    &__todo {
         width: 500px;
+        height: 50%;
         background-color: darkviolet;
     }
 }

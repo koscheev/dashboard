@@ -3,7 +3,7 @@
     position: absolute;
     left: 0;
     width: 75px;
-    height: 100%;
+    height: 1000px;
     background: linear-gradient( to bottom, #FA745A 0%, #FD5272 100%);
 
     &__logo {
@@ -17,8 +17,18 @@
         color: #ff3333;    
     }
 
-    &__nav-items {
+    &__items {
         width: 75px;
         height: 890px;
+    }
+
+    &__cards {
+        width: 75px;
+        height: 75px;
+    }
+
+    &__button {
+        width: 20px;
+        height: 20px;
     }
 }
