@@ -1,77 +1,83 @@
+$min-card-size: 265px;
+
+
 .main {
     display: flex;
+    align-items: stretch;
     flex-wrap: wrap;
     width: 1020px;
+    height: 795px;
     padding-left: 75px;
 
     // monhly revonue progress
-    &__header {
-        width: 700px;
-        height: 260px;
+
+    &__monthly {
+        width: 755px;
+        height: $min-card-size;
+        background-color: aqua;
     }
 
-    // costomers feed
-    &__aside {
-        width: 460px;
+    &__revenue {
+        height: $min-card-size;
+        width: $min-card-size;
+        background-color: darkcyan;
+    }
+
+    &__customers {
         height: 500px;
-
-    }
-
-    // revenue progress shipments
-    &__footer {
-        width: 260px;
-        height: 260px;
+        width: 450px;
+        background-color: darkolivegreen;
     }
 
     &__inner {
         display: flex;
-        flex-wrap: wrap;
-        width: 273px;
-        height: 830px;
-
-        &__todo {
-            width: 500px;
-            height: 245px;
-        }
-
-        &__footer {
-            width: 260px;
-            height: 260px;
-        }
-
+        flex-wrap: wrap ;
+        height: 500px;
+        width: 500px;
+        background-color: darkviolet;
     }
-
 }
 
 
 
-    // .monthly {
-    //     width: 704px;
-    //     height: 266px;
-    // }
 
-    // .revenue {
-    //     width: 264px;
-    //     height: 266px;
-    // }
 
-    // .customers {
-    //     width: 467px;
-    //     height: 508px;
-    // }
 
-    // .toodays {
-    //     width: 501px;
-    //     height: 245px;
-    // }
 
-    // .progress {
-    //     width: 241px;
-    //     height: 245px;
-    // }
 
-    // .shipments {
-    //     width: 241px;
-    //     height: 245px;
-    // }
-}
+
+//     // costomers feed
+//     &__aside {
+//         width: 460px;
+//         height: 500px;
+//     }
+
+//     // revenue progress shipments
+//     &__footer {
+//         width: 260px;
+//         height: 260px;
+//     }
+
+//     // toodays progrees shipments
+//     &__inner {
+//         display: flex;
+//         flex-wrap: wrap;
+//         width: 273px;
+//         height: 830px;
+
+//     }
+// }
+
+
+
+// .header
+
+// .main__todo {
+//     width: 500px;
+//     height: 245px;
+// }
+
+// .main__footer {
+//     width: 260px;
+//     height: 260px;
+// }

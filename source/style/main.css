@@ -377,10 +377,12 @@ textarea {
   position: absolute;
   left: 0;
   width: 75px;
-  background: #ff3300;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FA745A), to(#FD5272));
+  background: linear-gradient(to bottom, #FA745A 0%, #FD5272 100%);
 }
 
-.nav .logo {
+.nav__logo {
   display: block;
   width: 75px;
   height: 75px;
@@ -391,7 +393,7 @@ textarea {
   color: #ff3333;
 }
 
-.nav .nav-items {
+.nav__nav-items {
   width: 75px;
   height: 890px;
 }
@@ -402,49 +404,57 @@ textarea {
   padding-left: 75px;
 }
 
-.header .header-items {
+.header__main {
   width: 1298px;
   height: 71px;
 }
 
-.header .daily {
+.header__footer {
   width: 1298px;
   height: 98px;
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 1020px;
-  background: #ccffff;
+  height: 795px;
+  padding-left: 75px;
 }
 
-.main .monthly {
-  width: 704px;
-  height: 266px;
+.main__monthly {
+  width: 755px;
+  height: 265px;
+  background-color: aqua;
 }
 
-.main .revenue {
-  width: 264px;
-  height: 266px;
+.main__revenue {
+  height: 265px;
+  width: 265px;
+  background-color: darkcyan;
 }
 
-.main .customers {
-  width: 467px;
-  height: 508px;
+.main__customers {
+  height: 500px;
+  width: 450px;
+  background-color: darkolivegreen;
 }
 
-.main .toodays {
-  width: 501px;
-  height: 245px;
-}
-
-.main .progress {
-  width: 241px;
-  height: 245px;
-}
-
-.main .shipments {
-  width: 241px;
-  height: 245px;
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  background-color: darkviolet;
 }
 
 .aside {
@@ -452,34 +462,24 @@ textarea {
   background: #99cccc;
 }
 
-.aside .likes {
+.aside__menu {
   width: 271px;
   height: 48px;
 }
 
-.aside .users {
+.aside__cadrs {
   width: 271px;
   height: 516px;
 }
 
-.aside .search {
+.aside__search {
   width: 271px;
   height: 48px;
 }
 
 .footer {
+  width: 272px;
+  height: 225px;
   background: #ccff99;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 75px;
-}
-
-.container__iner {
-  width: 273px;
-  height: 830px;
 }
 /*# sourceMappingURL=main.css.map */
