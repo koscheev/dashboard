@@ -10,25 +10,62 @@
         display: block;
         width: 75px;
         height: 75px;
-        font-size: 30px;
+        padding-top: 15px;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 40px;
         background: #ffeeff;
         text-align: center;
         text-transform: uppercase; 
         color: #ff3333;    
+        background: #FFFFFF;
+        cursor: pointer;
     }
 
     &__items {
         width: 75px;
-        height: 890px;
+        height: 500px;
+        text-align: center;
     }
 
     &__cards {
         width: 75px;
         height: 75px;
+        padding-top: 55px;
+        cursor: pointer;
     }
+
+    &--home {
+        background: url(/source/img/bar_icons/home.svg) no-repeat center;
+    }
+
+    &--stactics {
+        background: url(/source/img/bar_icons/stat.svg) no-repeat center;
+    }
+
+    &--users {
+        background: url(/source/img/bar_icons/users.svg) no-repeat center;
+    }
+
+    &--settings {
+        background: url(/source/img/bar_icons/settings_nav.svg) no-repeat center;
+    }
+
+    &--quires {
+        background: url(/source/img/bar_icons/quires.svg) no-repeat center;
+    }
+
+    &__titles {
+        @include nav-text;
+    }
+     
 
     &__button {
         width: 20px;
         height: 20px;
+        margin-left: 30px;
+        margin-top: 340px;
+        background: url(/source/img/bar_icons/power.svg) no-repeat;
+        border: none;
+        cursor: pointer;
     }
 }
