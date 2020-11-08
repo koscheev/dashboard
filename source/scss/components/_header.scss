@@ -1,16 +1,107 @@
 .header {
     // width: 1298px;
     height: 170px;
-    background: #cccccc;
+    background: #FFFFFF;
     padding-left: 75px;
 
     &__main {
+        display: flex;
         width: 1298px;
-        height: 71px;
+        height: 75px;
     }
+
+    &__tabs {
+        // display: flex;
+        width: 75px;
+        height: 75px;
+        border: 0.5px solid #E6E6E6;
+        
+        background: #FFFFFF;
+    }
+
+    &--ellipse {
+        size: 35px;background: url(/source/img/bar_icons/ellipse.svg) no-repeat center;
+    }
+
+    &--folder {
+       background: url(/source/img/bar_icons/folder.svg) no-repeat center;
+    }
+
+    &--settings {
+        background: url(/source/img/bar_icons/settings_header.svg) no-repeat center;
+    }
+
+    &--upload {
+        background: url(/source/img/bar_icons/upload.svg) no-repeat center;
+    }
+
+    &--planet {
+        background: url(/source/img/bar_icons/planet.svg) no-repeat center;
+    }
+
+    &--letter {
+        background: url(/source/img/bar_icons/letter.svg) no-repeat center;
+    }
+
+
+    &__form {
+        width: 600px;
+        height: 75px;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+
+    &__field {
+        display: flex;
+        width: 335px;
+        height: 35px;
+    }
+
+    &__search {
+        width: 300px;
+        height: 35px;
+        color: #ECECEC;
+        border-radius: 50px 0 0 50px;
+        
+    }
+
+    &__button {
+        width: 35px;
+        height: 41px;
+        background: url(/source/img/bar_icons/zoom.svg) no-repeat center;
+        border-radius: 0 50px 50px 0;
+    }
+
+    &__names {
+        @include names;
+        width: 110px;
+        height: 20px;
+        
+
+    }
+
+    &__function {
+        @include function;
+        width: 110px;
+        height: 20px;
+
+    }
+
+    &--size {
+        width: 120px;
+        height: 75px;
+        padding-left: 20px;
+        padding-top: 20px;
+        border: none;
+        text-align: left;
+    }
+
+
 
     &__footer {
         width: 1298px;
-        height: 98px;
+        height: 95px;
+        background-color: yellowgreen;
     }
 }

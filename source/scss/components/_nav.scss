@@ -1,4 +1,3 @@
-// navigation 2 blocks logo and ul
 .nav {
     position: absolute;
     left: 0;
@@ -57,7 +56,6 @@
     &__titles {
         @include nav-text;
     }
-     
 
     &__button {
         width: 20px;
