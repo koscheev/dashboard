@@ -17,7 +17,16 @@
 @mixin function {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: normal;;
+    font-weight: normal;
     font-size: 12px;
     
+}
+
+@mixin gradient-top {
+    background: linear-gradient(to top, #FA745A 0%, #FD5272 100%);
+    
+}
+
+@mixin gradient-left {
+    background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
 }

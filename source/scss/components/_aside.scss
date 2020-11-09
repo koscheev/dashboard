@@ -6,13 +6,54 @@
     
     // pepople message likes
     &__menu {
-        background-color: darkviolet;
+        display: flex;
         height: 48px;
+        @include gradient-left;
+    }
+
+    &__blocks {
+        width: 90px;
+        height: 48px;
+    }
+
+    &__blocks:hover {
+        background: #C53E5B;
+    }
+
+    &--people {
+        background: url(/source/img/bar_icons/people.svg) no-repeat center;
+    }
+
+    &--chat {
+        background: url(/source/img/bar_icons/chat.svg) no-repeat center;
+    }
+
+    &--like {
+        background: url(/source/img/bar_icons/like.svg) no-repeat center;
     }
     
     &__cards {
-        background-color: yellow;
+        background-color: #ffffff;
         flex-grow: 1;        
+    }
+
+    &__cards-block {
+        display: flex;
+        width: 240px;
+        height: 80px;
+        margin-left: 20px;
+        border-bottom: 2px solid #E6E6E6;
+    }
+
+    &__titles {
+        width: 130px;
+        height: 86px;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    &__chat {
+        padding-left: 45px;
     }
     
     &__search {
@@ -23,6 +64,6 @@
     &__footer {
         background-color: yellow;
         width: 271px;
-        height: 120px;
+        height: 205px;
     }
 }
