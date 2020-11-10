@@ -69,7 +69,6 @@
         // margin: auto;
         margin-left: 0px;
         width: 80px;
-
     }
 
     &__span-high {
@@ -103,8 +102,6 @@
     &__card-margin {
         margin: 0;
         margin-top: 5px;
-
-
     }
 
     &__customers {
@@ -124,12 +121,73 @@
         width: 530px;
         background: #E9E9E9;
     }
+    &__inner-todo {
+        padding-top: 20px;
+    }
 
     &__todo {
         width: 530px;
         height: 240px;
-        background-color: darkviolet;
+        padding: 25px;
+        background: #ffffff;
     }
+
+    &__inner-blocks {
+        display: flex;
+        // justify-content: space-between;
+        width: 100%;
+        height: 38px;
+        // border-bottom: 1px solid #E6E6E6;
+        border-top: 1px solid #E6E6E6;
+        align-items: center;
+    }
+
+    &__inner-blocks-border {
+        border-bottom: 1px solid #E6E6E6;
+    }
+
+    &__inner-blocks-circle {
+        width: 17px;
+        height: 17px;
+        border-radius: 50px;
+        border: 1px solid #E2E2E2;
+    }
+
+    &__inner-blocks-circle:hover {
+        background: url(/source/img/bar_icons/mark.svg) no-repeat center ;
+        background-color: #FD5D6B;
+        // background-color: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
+    }
+
+    &__inner-blocks-title {
+        @include function;
+        color: #FD576F;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    &__inner-blocks-text {
+        @include function;
+        color: #BFBFBF;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    &__inner-blocks-clock {
+        width: 12px;
+        height: 12px;
+        background: url(/source/img/bar_icons/clock.svg) no-repeat center;
+        margin-left: 73px;
+    }
+
+    &__inner-blocks-time {
+        @include function;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+
+
+
 }
 
 

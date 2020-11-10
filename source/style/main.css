@@ -807,10 +807,79 @@ textarea {
   background: #E9E9E9;
 }
 
+.main__inner-todo {
+  padding-top: 20px;
+}
+
 .main__todo {
   width: 530px;
   height: 240px;
-  background-color: darkviolet;
+  padding: 25px;
+  background: #ffffff;
+}
+
+.main__inner-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 38px;
+  border-top: 1px solid #E6E6E6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__inner-blocks-border {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.main__inner-blocks-circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50px;
+  border: 1px solid #E2E2E2;
+}
+
+.main__inner-blocks-circle:hover {
+  background: url(/source/img/bar_icons/mark.svg) no-repeat center;
+  background-color: #FD5D6B;
+}
+
+.main__inner-blocks-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FD576F;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.main__inner-blocks-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #BFBFBF;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.main__inner-blocks-clock {
+  width: 12px;
+  height: 12px;
+  background: url(/source/img/bar_icons/clock.svg) no-repeat center;
+  margin-left: 73px;
+}
+
+.main__inner-blocks-time {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 10px;
+  text-transform: uppercase;
 }
 
 .aside {
