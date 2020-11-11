@@ -11,6 +11,7 @@
 
 <body>
     <div class="wrap">
+        <!-- navigation -->
         <nav class="nav">
             <span class="nav__logo">w</span>
             <ul class="nav__items">
@@ -32,7 +33,7 @@
             </ul>
             <button class="nav__button"></button>
         </nav>
-
+        <!-- header -->
         <header class="header">
             <div class="header__main">
                 <div class="header__tabs header--ellipse"></div>
@@ -40,7 +41,7 @@
                 <div class="header__tabs header--settings"></div>
                 <div class="header__form">
                     <div class="header__field">
-                        <input class="header__search" type="text" placeholder="Search anuthing here">
+                        <input class="header__search" type="text" placeholder="Search anything here">
                         <input class="header__button" type="submit" value="">
                     </div>
                 </div>
@@ -52,8 +53,13 @@
                     <p class="header__names">Kendall Jener</p>
                     <p class="header__function">Cheif Authority</p>
                 </div>
-                <div class="header__tabs"></div>
-  
+                <div class="header__tabs">
+                    <button class="main__header-settings">
+                        <div class="main__header-circle"></div>
+                        <div class="main__header-circle"></div>
+                        <div class="main__header-circle"></div>
+                    </button>
+                </div>
             </div>
             <div class="header__footer">
                 <div class="header__blocks">
@@ -117,10 +123,29 @@
                 </div>
             </div>
         </header>
-
+        <!-- section -->
         <section class="section">
             <main  class="main">
-                <div class="main__header"></div>
+                <div class="main__header">
+                    <div class="main__header-header">
+                        <p class="main__names">Mountly revenue progress</p>
+                        <div class="main__header-aside">
+                            <p class="main__header-span">Month</p>
+                            <p class="main__header-span">Day</p>
+                            <p class="main__header-span">Year</p>
+                            <button class="main__header-settings">
+                                <div class="main__header-circle"></div>
+                                <div class="main__header-circle"></div>
+                                <div class="main__header-circle"></div>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
                 <div class="main__card">
                     <p class="main__names">Revenue per our</p>
                     <img class="main__card-size" src="/source/img/jpg/revenue.jpg" alt="">
@@ -130,9 +155,6 @@
                         <div class="main__span-low">1020</div>
                     </div>
                 </div>
-
-
-
                 <div class="main__footer">
                     <p class="main__names">Customers feed</p>
                     <div class="main__footer-bloks">  

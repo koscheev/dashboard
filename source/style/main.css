@@ -514,17 +514,24 @@ textarea {
 }
 
 .header__search {
-  width: 300px;
-  height: 35px;
+  width: 200px;
+  height: 25px;
+  font-size: 13px;
   color: #ECECEC;
-  border-radius: 50px 0 0 50px;
+  border-radius: 56px 0 0 50px;
+  border: 1px solid;
+  border-right: none;
+  background: #F8F8F8;
 }
 
 .header__button {
   width: 35px;
-  height: 41px;
+  height: 29px;
   background: url(/source/img/bar_icons/zoom.svg) no-repeat center;
+  border: none;
   border-radius: 0 50px 50px 0;
+  border: 1px solid;
+  border-left: none;
 }
 
 .header__names {
@@ -668,8 +675,94 @@ textarea {
 .main__header {
   width: 730px;
   height: 240px;
-  background-color: aqua;
   margin: 15px;
+  padding: 25px;
+  background: #ffffff;
+}
+
+.main__header-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 680px;
+  height: 24px;
+}
+
+.main__header-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #777777;
+  text-transform: capitalize;
+}
+
+.main__header-aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 194px;
+  height: 24px;
+}
+
+.main__header-span {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 60px;
+  height: 24px;
+  padding-top: 5px;
+  font-weight: bold;
+  color: #C4C4C4;
+  text-align: center;
+  background-color: transparent;
+}
+
+.main__header-span:hover {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 60px;
+  height: 24px;
+  font-weight: bold;
+  color: #C4C4C4;
+  text-align: center;
+  border-radius: 50px;
+  background-color: transparent;
+  background: -webkit-gradient(linear, right top, left top, from(#FA745A), to(#FD5272));
+  background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
+}
+
+.main__header-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 15px;
+  height: 25px;
+  border: none;
+  background: #ffffff;
+}
+
+.main__header-circle {
+  width: 5px;
+  height: 5px;
+  color: #C4C4C4;
+  border-radius: 50px;
+  background: #C4C4C4;
 }
 
 .main__card {
@@ -956,6 +1049,8 @@ textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
+  width: 50px;
+  height: 13px;
   color: #FD576F;
   font-weight: bold;
   margin-left: 10px;

@@ -60,18 +60,25 @@
     }
 
     &__search {
-        width: 300px;
-        height: 35px;
+        width: 200px;
+        height: 25px;
+        font-size: 13px;
         color: #ECECEC;
-        border-radius: 50px 0 0 50px;
+        border-radius: 56px 0 0 50px;
+        border: 1px solid;
+        border-right: none;
+        background: #F8F8F8;
         
     }
 
     &__button {
         width: 35px;
-        height: 41px;
+        height: 29px;
         background: url(/source/img/bar_icons/zoom.svg) no-repeat center;
+        border: none;
         border-radius: 0 50px 50px 0;
+        border: 1px solid;
+        border-left: none;
     }
 
     &__names {
