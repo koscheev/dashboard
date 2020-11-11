@@ -694,6 +694,7 @@ textarea {
   font-size: 15px;
   color: #777777;
   font-size: 13px;
+  text-transform: capitalize;
 }
 
 .main__text {
@@ -781,16 +782,96 @@ textarea {
 
 .main__card-margin {
   margin: 0;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
-.main__customers {
+.main__footer {
   height: 485px;
   width: 450px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
-  background-color: darkolivegreen;
+  padding: 25px;
+  background: #ffffff;
+}
+
+.main__footer-bloks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  height: 80px;
+}
+
+.main__footer-card {
+  width: 45px;
+  height: 80px;
+}
+
+.main__footer-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 45px;
+  height: 8px;
+  font-size: 8px;
+}
+
+.main__footer-span {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 330px;
+  height: 80px;
+  padding: 10px;
+  border: 0.5px solid #E6E6E6;
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  color: #BFBFBF;
+}
+
+.main__footer-span-select {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.main__footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 330px;
+  height: 180px;
+}
+
+.main__footer-inner-aside {
+  width: 10px;
+  height: 180px;
+  border: none;
+  border-right: 0.5px solid #E6E6E6;
+}
+
+.main__footer-inner-main {
+  width: 250px;
+  height: 180px;
+}
+
+.main__footer-span-resize {
+  width: 250px;
 }
 
 .main__inner {
@@ -813,7 +894,7 @@ textarea {
 
 .main__todo {
   width: 530px;
-  height: 240px;
+  height: 230px;
   padding: 25px;
   background: #ffffff;
 }
