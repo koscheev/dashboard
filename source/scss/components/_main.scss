@@ -106,6 +106,9 @@
     }
 
     &__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         height: 485px;
         width: 450px;
         margin-left: 15px;
@@ -126,6 +129,7 @@
     &__footer-card {
         width: 45px;
         height: 80px;
+        text-align: center;
     }
 
     &__footer-text {
@@ -133,6 +137,7 @@
         width: 45px;
         height: 8px;
         font-size: 8px;
+        margin-top: 10px;
     }
 
     &__footer-span {
@@ -145,6 +150,7 @@
         font-size: 12px;
         font-weight: bold;
         color: #BFBFBF;
+        line-height: 16px;
 
     }
 
@@ -162,6 +168,7 @@
         justify-content: space-between;
         width: 330px;
         height: 180px;
+        margin-left: 70px;
 
     }
 
@@ -169,16 +176,19 @@
         width: 10px;
         height: 180px;
         border: none;
-        border-right: 0.5px solid #E6E6E6;
+        border-right: 3px solid #E6E6E6;
     }
 
     &__footer-inner-main {
-        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 310px;
         height: 180px;
     }
 
     &__footer-span-resize {
-        width: 250px;
+        width: 310px;
     }
 
 
