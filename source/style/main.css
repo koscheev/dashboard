@@ -1172,7 +1172,9 @@ textarea {
   font-weight: normal;
   font-size: 12px;
   margin-left: 10px;
+  color: #BFBFBF;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .aside {

@@ -86,7 +86,7 @@
     &__header-circle-color {
         background: #FFFFFF;
     }
-    
+
     &__graphics {
         display: flex;
         flex-wrap: wrap;
@@ -396,7 +396,9 @@
     &__inner-blocks-time {
         @include function;
         margin-left: 10px;
+        color: #BFBFBF;
         text-transform: uppercase;
+        font-weight: bold;
     }
 
 
