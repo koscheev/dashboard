@@ -34,14 +34,15 @@
     
     &__cards {
         background-color: #ffffff;
-        flex-grow: 1;        
+        flex-grow: 1;
+        overflow-y: scroll;    
     }
 
     &__cards-block {
         display: flex;
         width: 240px;
         height: 75px;
-        margin-left: 20px;
+        margin-left: 9px;
         border-bottom: 2px solid #E6E6E6;
     }
 
@@ -53,7 +54,7 @@
     }
 
     &__chat {
-        padding-left: 45px;
+        padding-left: 30px;
     }
 
     &__field {

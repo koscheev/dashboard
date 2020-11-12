@@ -472,8 +472,26 @@ textarea {
   background: #FFFFFF;
 }
 
-.header--ellipse {
-  background: url(/source/img/bar_icons/ellipse.svg) no-repeat center;
+.header__ellipse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 38px;
+  height: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 22px;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, right top, left top, from(#FA745A), to(#FD5272));
+  background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
+}
+
+.header__header-circle-color {
+  background: #FFFFFF;
 }
 
 .header--folder {
@@ -518,7 +536,7 @@ textarea {
   height: 25px;
   font-size: 13px;
   color: #ECECEC;
-  border-radius: 56px 0 0 50px;
+  border-radius: 50px 0 0 50px;
   border: 1px solid;
   border-right: none;
   background: #F8F8F8;
@@ -532,6 +550,8 @@ textarea {
   border-radius: 0 50px 50px 0;
   border: 1px solid;
   border-left: none;
+  color: #ECECEC;
+  background: #F8F8F8;
 }
 
 .header__names {
@@ -657,6 +677,11 @@ textarea {
 .header__title-color {
   color: #FD5372;
   margin-top: 20px;
+}
+
+.header__settings-margin {
+  margin-top: 20px;
+  padding-left: 53px;
 }
 
 .main {
@@ -1014,6 +1039,7 @@ textarea {
   height: 230px;
   padding: 25px;
   background: #ffffff;
+  overflow-y: scroll;
 }
 
 .main__inner-blocks {
@@ -1063,14 +1089,14 @@ textarea {
   font-size: 12px;
   color: #BFBFBF;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .main__inner-blocks-clock {
   width: 12px;
   height: 12px;
   background: url(/source/img/bar_icons/clock.svg) no-repeat center;
-  margin-left: 73px;
+  margin-left: 60px;
 }
 
 .main__inner-blocks-time {
@@ -1129,6 +1155,7 @@ textarea {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  overflow-y: scroll;
 }
 
 .aside__cards-block {
@@ -1137,7 +1164,7 @@ textarea {
   display: flex;
   width: 240px;
   height: 75px;
-  margin-left: 20px;
+  margin-left: 9px;
   border-bottom: 2px solid #E6E6E6;
 }
 
@@ -1149,7 +1176,7 @@ textarea {
 }
 
 .aside__chat {
-  padding-left: 45px;
+  padding-left: 30px;
 }
 
 .aside__field {
