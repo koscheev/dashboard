@@ -82,6 +82,59 @@
         border-radius: 50px;
         background: #C4C4C4;;
     }
+    &__graphics {
+        display: flex;
+        flex-wrap: wrap;
+        width: 680px;
+        height: 180px;
+        margin-top: 15px;
+        // padding-left: 50px;
+        
+    }
+
+    &__graphics-axis-y {
+        width: 30px;
+        height: 120px;
+    }
+
+    &__axis-y {
+        height: 40px;
+        @include function;
+        color: #C4C4C4;
+        
+    }
+
+    &__graphics-axis-x {
+        display: flex;
+        width: 690px;
+        height: 20px;
+    }
+
+
+    &__axis-x {
+        width: 55px;
+        padding-left: 50px;
+        @include function;
+        color: #C4C4C4;
+
+    }
+
+    &__graphics-graphics {
+        width: 650px;
+        height: 120px;
+        // padding-top: 20px;
+        padding-left: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 

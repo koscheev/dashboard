@@ -72,6 +72,8 @@
 
     &__field {
         display: flex;
+        justify-content: center;
+        align-items: center;
         width: 335px;
         height: 35px;
     }
@@ -97,7 +99,8 @@
         border: 1px solid;
         border-left: none;
         color: #ECECEC;
-        background: #F8F8F8;
+        background-color: #F8F8F8;
+        // background: #F8F8F8;
     }
 
     &__names {
