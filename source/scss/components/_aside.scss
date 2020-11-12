@@ -111,10 +111,46 @@
     &__socials {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 23px;
         // justify-content: space-around;
-        margin-top: 25px;
-        margin-left: 35px;
+        // margin-top: 25px;
+        // margin-left: 35px;
     }
+
+    &__round {
+        display: flex;
+        justify-content: center;
+        width: 55px;
+        height: 55px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    &__round-gradient-o {
+        background: linear-gradient(to top, #725CB9 0%, #A86ADA 100%);
+    }
+
+    &__round-gradient-e {
+        background: linear-gradient(to top, #57C4C6 0%, #50DEC4 100%);
+    }
+
+    &__round-gradient-z {
+        background: linear-gradient(to top, #BC797D 0%, #EAAB92 100%);
+    }
+
+    &__round-gradient-x {
+        background: linear-gradient(to top, #8252BC 0%, #747EDD 100%);
+    }
+
+    &__round-gradient-v {
+        background: linear-gradient(to top, #5595E7 0%, #31C0DF 100%);
+    }
+
+    &__round-gradient-vk {
+        background: linear-gradient(to top, #F59783 0%, #FACC88 100%);
+    }
+
 
     &__logo {
         width: 55px;

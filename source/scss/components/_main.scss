@@ -82,6 +82,11 @@
         border-radius: 50px;
         background: #C4C4C4;;
     }
+
+    &__header-circle-color {
+        background: #FFFFFF;
+    }
+    
     &__graphics {
         display: flex;
         flex-wrap: wrap;
@@ -100,6 +105,7 @@
     &__axis-y {
         height: 40px;
         @include function;
+        font-weight: bold;
         color: #C4C4C4;
         
     }
@@ -115,6 +121,7 @@
         width: 55px;
         padding-left: 50px;
         @include function;
+        font-weight: bold;
         color: #C4C4C4;
 
     }
