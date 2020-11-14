@@ -43,14 +43,7 @@
         background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
     }
 
-    // &__header-circle-color {
-    //     background: #FFFFFF;
-    // }
-
-    // &--ellipse {
-    //     // background: url(/source/img/bar_icons/ellipse.svg) no-repeat center;
-    //     // background-color: yellow;
-    // }
+ 
 
     &--folder {
        background: url(/source/img/bar_icons/folder.svg) no-repeat center;
@@ -77,14 +70,6 @@
     }
 
 
-    // &__form {
-    //     width: 578px;
-    //     height: 75px;
-    //     text-align: center;
-    //     padding-top: 15px;
-    //     padding-left: 110px;
-    //     border: 0.5px solid #E6E6E6;
-    // }
 
     &__field {
         display: flex;
@@ -189,34 +174,44 @@
 
     &__span-text {
         display: flex;
-        width: 50px;
+        justify-content: space-between;
+        // align-content: space-between;
+        width: 80px;
         height: 20px;
         margin-top: 8px;
+        margin-left: 15px;
     }
 
     &__span-high {
+        position: relative;
         @include nav-text;
         font-size: 12px;
         color: #BFBFBF;
     }
 
     &__span-high::before {
+        position: absolute;
         content: ''; 
-        left: 20px; bottom: -20px; /* Положение треугольника */
-        border: 6px solid transparent; /* Прозрачные границы */
+        left: -10px; 
+        bottom: 10px; /* Положение треугольника */
+        border: 4px solid transparent; /* Прозрачные границы */
         border-bottom: 6px solid #A889E9; /* Добавляем треугольник */
     }
 
     &__span-low {
+        position: relative;
         @include nav-text;
         font-size: 12px;
         color: #BFBFBF;
     }
 
     &__span-low::before {
+        position: absolute;
         content: ''; 
-        left: 20px; bottom: -20px; /* Положение треугольника */
-        border: 6px solid transparent; /* Прозрачные границы */
+        // bottom: 7px;
+        left: -10px; 
+        bottom: 8px; /* Положение треугольника */
+        border: 4px solid transparent; /* Прозрачные границы */
         border-top: 6px solid #FD5670; /* Добавляем треугольник */
     }
 

@@ -30,7 +30,7 @@
     }
 
     .header__tabs {
-        width: 50px;
+        width: 60px;
         height: 50px;
     }
 
@@ -81,8 +81,10 @@
     .header__footer {
         // height: none;
         // margin-top: 20px;
+        margin-top: 10px;
         border-top: 0.5px solid #E6E6E6;
         overflow-y: scroll;
+        // overflow-x: none;
     }
 
     .section {
@@ -96,7 +98,7 @@
     }
 
     .main__header {
-        // margin-top: 20px;
+        margin-top: 34px;
         margin-left: 0px;
         margin-right: 0px;
         overflow-y: scroll;
@@ -104,15 +106,85 @@
     }
 
     .main__card {
-        margin: 15px auto;
+        margin: 0px auto;
+        // margin-top: 0px;
+        // margin-bottom: 15px;
+        
+        margin: 0px auto;
     }
 
     .main__inner {
         height: auto;
     }
 
+    .main__inner-blocks {
+        height: auto;
+    }
+
     .main__footer {
-        margin: 0px auto;
+        // margin: 0px auto;
+        // margin-top: 15px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .main__footer-card {
+        display: none;
+    }
+
+    .main__footer-inner {
+        display: none;
+        margin-left: 0px;
+        width: 0px;
+    }
+
+    .main__footer-span {
+        width: auto;
+    }
+
+    .main__todo {
+        margin-top: 15px;
+    }
+
+    .main__card-margin {
+        margin-top: 15px;
+    }
+
+    .aside {
+        margin-top: 15px;
+    }
+
+    .aside__footer {
+        width: auto;
+        height: auto;
+    }
+
+    .aside__cards {
+        width: 100%;
+        height: 250px;
+    }
+
+    .aside__field {
+        margin: 0 auto;
+        border-top: none;
+    }
+
+    .aside__round {
+        margin: 0px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .aside__header {
+        margin-top: 5px;
+    }
+    
+
+    .aside__socials {
+        padding: 0px;
+        margin-top: 5px;
+        justify-content: space-around;
     }
 
 }

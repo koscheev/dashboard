@@ -7,7 +7,8 @@
     // pepople message likes
     &__menu {
         display: flex;
-        width: 240px;
+        justify-content: space-between;
+        // width: 240px;
         height: 48px;
         @include gradient-left;
     }
@@ -35,13 +36,14 @@
     
     &__cards {
         background-color: #ffffff;
-        flex-grow: 1;
+        // flex-grow: 1;
         overflow-y: scroll;    
     }
 
     &__cards-block {
         display: flex;
-        width: 240px;
+        justify-content: space-around;
+        // width: 240px;
         height: 75px;
         margin-left: 9px;
         border-bottom: 2px solid #E6E6E6;

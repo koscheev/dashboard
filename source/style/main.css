@@ -371,7 +371,7 @@ textarea {
   max-width: 1368px;
   margin: 0 auto;
   overflow: hidden;
-  background: #99cc66;
+  background: #E9E9E9;
 }
 
 .nav {
@@ -649,12 +649,17 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80px;
   height: 20px;
   margin-top: 8px;
+  margin-left: 15px;
 }
 
 .header__span-high {
+  position: relative;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -665,17 +670,19 @@ textarea {
 }
 
 .header__span-high::before {
+  position: absolute;
   content: '';
-  left: 20px;
-  bottom: -20px;
+  left: -10px;
+  bottom: 10px;
   /* Положение треугольника */
-  border: 6px solid transparent;
+  border: 4px solid transparent;
   /* Прозрачные границы */
   border-bottom: 6px solid #A889E9;
   /* Добавляем треугольник */
 }
 
 .header__span-low {
+  position: relative;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -686,11 +693,12 @@ textarea {
 }
 
 .header__span-low::before {
+  position: absolute;
   content: '';
-  left: 20px;
-  bottom: -20px;
+  left: -10px;
+  bottom: 8px;
   /* Положение треугольника */
-  border: 6px solid transparent;
+  border: 4px solid transparent;
   /* Прозрачные границы */
   border-top: 6px solid #FD5670;
   /* Добавляем треугольник */
@@ -916,7 +924,10 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80px;
   height: 20px;
   margin-top: 8px;
   margin-left: 80px;
@@ -928,6 +939,7 @@ textarea {
 }
 
 .main__span-high {
+  position: relative;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -938,17 +950,19 @@ textarea {
 }
 
 .main__span-high::before {
+  position: absolute;
   content: '';
-  left: 20px;
-  bottom: -20px;
+  left: -10px;
+  bottom: 10px;
   /* Положение треугольника */
-  border: 6px solid transparent;
+  border: 4px solid transparent;
   /* Прозрачные границы */
   border-bottom: 6px solid #A889E9;
   /* Добавляем треугольник */
 }
 
 .main__span-low {
+  position: relative;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -959,11 +973,12 @@ textarea {
 }
 
 .main__span-low::before {
+  position: absolute;
   content: '';
-  left: 20px;
-  bottom: -20px;
+  left: -10px;
+  bottom: 8px;
   /* Положение треугольника */
-  border: 6px solid transparent;
+  border: 4px solid transparent;
   /* Прозрачные границы */
   border-top: 6px solid #FD5670;
   /* Добавляем треугольник */
@@ -986,7 +1001,6 @@ textarea {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 485px;
-  width: 450px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -1001,13 +1015,9 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 400px;
-  height: 80px;
 }
 
 .main__footer-card {
-  width: 45px;
-  height: 80px;
   text-align: center;
 }
 
@@ -1028,7 +1038,6 @@ textarea {
   font-weight: normal;
   font-size: 12px;
   width: 330px;
-  height: 80px;
   padding: 10px;
   border: 0.5px solid #E6E6E6;
   background: #ffffff;
@@ -1196,7 +1205,9 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 240px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 48px;
   background: -webkit-gradient(linear, right top, left top, from(#FA745A), to(#FD5272));
   background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
@@ -1225,9 +1236,6 @@ textarea {
 
 .aside__cards {
   background-color: #ffffff;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   overflow-y: scroll;
 }
 
@@ -1235,7 +1243,8 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 240px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 75px;
   margin-left: 9px;
   border-bottom: 2px solid #E6E6E6;
@@ -1393,7 +1402,7 @@ textarea {
     padding-left: 0px;
   }
   .header__tabs {
-    width: 50px;
+    width: 60px;
     height: 50px;
   }
   .header__tabs-padding {
@@ -1439,6 +1448,7 @@ textarea {
     display: none;
   }
   .header__footer {
+    margin-top: 10px;
     border-top: 0.5px solid #E6E6E6;
     overflow-y: scroll;
   }
@@ -1455,18 +1465,71 @@ textarea {
     padding-left: 0px;
   }
   .main__header {
+    margin-top: 34px;
     margin-left: 0px;
     margin-right: 0px;
     overflow-y: scroll;
   }
   .main__card {
-    margin: 15px auto;
+    margin: 0px auto;
+    margin: 0px auto;
   }
   .main__inner {
     height: auto;
   }
+  .main__inner-blocks {
+    height: auto;
+  }
   .main__footer {
-    margin: 0px auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .main__footer-card {
+    display: none;
+  }
+  .main__footer-inner {
+    display: none;
+    margin-left: 0px;
+    width: 0px;
+  }
+  .main__footer-span {
+    width: auto;
+  }
+  .main__todo {
+    margin-top: 15px;
+  }
+  .main__card-margin {
+    margin-top: 15px;
+  }
+  .aside {
+    margin-top: 15px;
+  }
+  .aside__footer {
+    width: auto;
+    height: auto;
+  }
+  .aside__cards {
+    width: 100%;
+    height: 250px;
+  }
+  .aside__field {
+    margin: 0 auto;
+    border-top: none;
+  }
+  .aside__round {
+    margin: 0px;
+    width: 45px;
+    height: 45px;
+  }
+  .aside__header {
+    margin-top: 5px;
+  }
+  .aside__socials {
+    padding: 0px;
+    margin-top: 5px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=main.css.map */
