@@ -3,11 +3,13 @@
 @import './config/variables';
 @import './config/mixins';
 
+
 // Components
 @import './components/baseLayout';
 @import './components/nav';
 @import './components/header';
 @import './components/main';
 @import './components/aside';
-// @import './components/footer';
 @import './components/section';
+
+@import './config/media';

@@ -1,0 +1,118 @@
+@media (max-width: 820px) {
+    .nav {
+        // display: none;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav__logo {
+        // display: block;
+        position: fixed;
+        padding-top: 0px;
+        // margin: auto;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        // display: none;
+    }
+
+    .nav__items {
+        display: none;
+    }
+
+    .nav__button {
+        display: none;
+    }
+
+    .header {
+        // max-width: 1298px;
+        padding-left: 0px;
+    }
+
+    .header__tabs {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__tabs-padding {
+        // padding-top: 22px;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .header__field {
+        position: absolute;
+        width: 352px;
+        height: 50px;
+        // text-align: center;
+        margin-top: 42px;
+        border: none;
+    }
+
+
+
+    .header__search {
+        
+        left: 0px;
+        top: 50px;
+    }
+
+    .header__tabs-settings-padding {
+
+        border-left: none;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        align-items: center;
+       
+    }
+
+
+    .header--img {
+        display: none;
+    }
+
+    .header--size {
+        display: none;
+    }
+
+    .header__footer {
+        // height: none;
+        // margin-top: 20px;
+        border-top: 0.5px solid #E6E6E6;
+        overflow-y: scroll;
+    }
+
+    .section {
+        flex-direction: column;
+        // align-items: stretch;
+        justify-content: center;
+    }
+
+    .main {
+        padding-left: 0px;
+    }
+
+    .main__header {
+        // margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow-y: scroll;
+        // overflow-x: none;
+    }
+
+    .main__card {
+        margin: 15px auto;
+    }
+
+    .main__inner {
+        height: auto;
+    }
+
+    .main__footer {
+        margin: 0px auto;
+    }
+
+}

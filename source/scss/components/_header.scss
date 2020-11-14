@@ -6,7 +6,7 @@
 
     &__main {
         display: flex;
-        width: 1298px;
+        max-width: 1298px;
         height: 75px;
     }
 
@@ -20,6 +20,12 @@
 
     &__tabs-padding {
         padding-top: 22px;
+    }
+
+    &__tabs-settings-padding {
+        padding-top: 22px;
+        padding-left: 50px;
+        border-left: none;
     }
 
     &__ellipse {
@@ -66,22 +72,31 @@
         background: url(/source/img/bar_icons/letter.svg) no-repeat center;
     }
 
-
-    &__form {
-        width: 578px;
-        height: 75px;
-        text-align: center;
-        padding-top: 15px;
-        padding-left: 110px;
-        border: 0.5px solid #E6E6E6;
+    &--img {
+        background: url(/source/img/jpg/Kendall.svg) no-repeat center;
     }
+
+
+    // &__form {
+    //     width: 578px;
+    //     height: 75px;
+    //     text-align: center;
+    //     padding-top: 15px;
+    //     padding-left: 110px;
+    //     border: 0.5px solid #E6E6E6;
+    // }
 
     &__field {
         display: flex;
         justify-content: center;
+        width: 578px;
+        height: 100%;
+        text-align: center;
         align-items: center;
-        width: 335px;
-        height: 35px;
+        // border: 1px solid;
+        border: 0.5px solid #E6E6E6;
+        // width: 335px;
+        // height: 35px;
     }
 
     &__search {
@@ -92,7 +107,7 @@
         font-size: 13px;
         color: #ECECEC;
         border-radius: 50px 0 0 50px;
-        border: 1px solid;
+        border: 0.5px solid #E6E6E6;
         border-right: none;
         background: #F8F8F8;
         
@@ -126,18 +141,21 @@
     }
 
     &--size {
+        display: flex;
+        flex-direction: column;
         width: 120px;
         height: 75px;
         padding-left: 20px;
         padding-top: 20px;
+        border-right: none;
         // border: none;
         text-align: left;
     }
 
     &__footer {
         display: flex;
-        width: 1293px;
-        height: 95px;
+        max-width: 1293px;
+        // height: 95px;
         border-right : 0.5px solid #E6E6E6;
     }
 
@@ -153,7 +171,7 @@
     &__title {
         @include nav-text;
         // width: 71px;
-        height: 11px;
+        height: 17px;
         font-size: 12px;
         color: #767676;
     }
@@ -207,9 +225,8 @@
         margin-top: 20px;
     }
 
-    &__settings-margin {
-        // display: flex;
-        margin-top: 20px;
-        padding-left: 53px;
-    }
+    // &__settings-margin {
+    //     margin-top: 20px;
+    //     padding-left: 53px;
+    // }
 }

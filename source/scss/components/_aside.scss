@@ -1,12 +1,13 @@
 .aside {
-    background: #99cccc;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 271px;
+    // max-width: 271px;
     
     // pepople message likes
     &__menu {
         display: flex;
+        width: 240px;
         height: 48px;
         @include gradient-left;
     }
