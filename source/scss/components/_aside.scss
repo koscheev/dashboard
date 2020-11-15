@@ -2,13 +2,10 @@
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    // max-width: 271px;
     
-    // pepople message likes
     &__menu {
         display: flex;
         justify-content: space-between;
-        // width: 240px;
         height: 48px;
         @include gradient-left;
     }
@@ -20,7 +17,6 @@
         cursor: pointer;
     }
 
-
     &__blocks:hover::after {
         position: absolute;
         content: '';
@@ -28,10 +24,8 @@
         left: calc(50% - 10px);
         border: 10px solid transparent;
         border-top: 6px solid #FD5670;
-        
     }
 
-  
     &--people {
         background: url(/source/img/bar_icons/people.svg) no-repeat center;
     }
@@ -46,14 +40,12 @@
     
     &__cards {
         background-color: #ffffff;
-        // flex-grow: 1;
         overflow-y: scroll;    
     }
 
     &__cards-block {
         display: flex;
         justify-content: space-around;
-        // width: 240px;
         height: 75px;
         margin-left: 9px;
         border-bottom: 2px solid #E6E6E6;
@@ -105,9 +97,6 @@
         background: url(/source/img/bar_icons/edit.svg)
     }
 
-
-
-    
     &__footer {
         width: 271px;
         height: 230px;
@@ -126,9 +115,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 23px;
-        // justify-content: space-around;
-        // margin-top: 25px;
-        // margin-left: 35px;
     }
 
     &__round {
@@ -164,13 +150,9 @@
         background: linear-gradient(to top, #F59783 0%, #FACC88 100%);
     }
 
-
     &__logo {
         width: 55px;
         height: 55px;
         margin: 10px 7px;
-        // padding-left: 20px;
     }
-
-
 }

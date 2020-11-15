@@ -1,17 +1,10 @@
 .nav {
-    // position: absolute;
     position: fixed;
-    // display: flex;
-    // flex-direction: column;
-    // left: 0;
     width: 75px;
     height: 968px;
     background: linear-gradient( to bottom, #FA745A 0%, #FD5272 100%);
 
     &__logotype {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
         width: 75px;
         height: 75px;
         background: #FFFFFF;
@@ -31,14 +24,12 @@
         color: #ff3333;    
         background: #FFFFFF;
         cursor: pointer;
-        
     }
 
     &__hamburger {
         display: none;
         flex-direction: column;
         justify-content: space-between;
-        // width: 22px;
         height: 10px;
         border: none;
         background: #FFFFFF;
@@ -46,7 +37,6 @@
     
     &__hamburger-line {
         margin: 0 auto;
-        // width: 12px;
         height: 2px;
         color: #C4C4C4;
         background: #C4C4C4;
@@ -73,7 +63,6 @@
         top: calc(50% - 10px);
         border: 10px solid transparent; 
         border-left: 6px solid #FD5670;
-
     }
 
     &--home {

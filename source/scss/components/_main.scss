@@ -1,20 +1,12 @@
-// $min-card-size: 250px;
-
-
 .main {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
     padding-left: 75px;
     background: #E9E9E9;
-   
-    // monhly revonue progress
 
     &__header {
-        // display: flex;
-        // justify-content: space-between;
         width: 730px;
-        // height: 240px;
         margin: 15px;
         padding: 25px;
         background: #ffffff;
@@ -64,7 +56,6 @@
         background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
     }
 
-
     &__header-settings {
         display: flex;
         flex-direction: column;
@@ -93,8 +84,6 @@
         width: 680px;
         height: 180px;
         margin-top: 15px;
-        // padding-left: 50px;
-        
     }
 
     &__graphics-axis-y {
@@ -107,7 +96,6 @@
         @include function;
         font-weight: bold;
         color: #C4C4C4;
-        
     }
 
     &__graphics-axis-x {
@@ -116,27 +104,19 @@
         height: 20px;
     }
 
-
     &__axis-x {
         width: 55px;
         padding-left: 50px;
         @include function;
         font-weight: bold;
         color: #C4C4C4;
-
     }
 
     &__graphics-graphics {
         width: 650px;
         height: 120px;
-        // padding-top: 20px;
         padding-left: 20px;
     }
-
-
-
-
-
 
     &__card {
         height: 240px;
@@ -189,7 +169,6 @@
     }
 
     &__span-text-margin {
-        // margin: auto;
         margin-left: 0px;
         width: 80px;
     }
@@ -220,14 +199,11 @@
     &__span-low::before {
         position: absolute;
         content: ''; 
-        // bottom: 7px;
         left: -10px; 
         bottom: 8px; /* Положение треугольника */
         border: 4px solid transparent; /* Прозрачные границы */
         border-top: 6px solid #FD5670; /* Добавляем треугольник */
     }
-
-
 
     &__card-margin {
         margin: 0;
@@ -239,7 +215,6 @@
         flex-direction: column;
         justify-content: space-between;
         height: 485px;
-        // width: 450px;
         margin-left: 15px;
         margin-right: 15px;
         margin-bottom: 15px;
@@ -250,14 +225,9 @@
     &__footer-bloks {
         display: flex;
         justify-content: space-between;
-        // width: 400px;
-        // height: 80px;
     }
     
-
     &__footer-card {
-        // width: 45px;
-        // height: 80px;
         text-align: center;
     }
 
@@ -272,7 +242,6 @@
     &__footer-span {
         @include function;
         width: 330px;
-        // height: 80px;
         padding: 10px;
         border: 0.5px solid #E6E6E6;
         background: #ffffff;
@@ -280,7 +249,6 @@
         font-weight: bold;
         color: #BFBFBF;
         line-height: 16px;
-
     }
 
     &__footer-span-select {
@@ -289,7 +257,6 @@
         font-weight: bold;
         color: #000000;
         text-transform: capitalize;
-
     }
 
     &__footer-inner {
@@ -298,7 +265,6 @@
         width: 330px;
         height: 180px;
         margin-left: 70px;
-
     }
 
     &__footer-inner-aside {
@@ -328,6 +294,7 @@
         width: 530px;
         background: #E9E9E9;
     }
+
     &__inner-todo {
         padding-top: 20px;
     }
@@ -342,10 +309,8 @@
 
     &__inner-blocks {
         display: flex;
-        // justify-content: space-between;
         width: 100%;
         height: 38px;
-        // border-bottom: 1px solid #E6E6E6;
         border-top: 1px solid #E6E6E6;
         align-items: center;
     }
@@ -364,7 +329,6 @@
     &__inner-blocks-circle:hover {
         background: url(/source/img/bar_icons/mark.svg) no-repeat center ;
         background-color: #FD5D6B;
-        // background-color: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
     }
 
     &__inner-blocks-title {
@@ -397,9 +361,6 @@
         text-transform: uppercase;
         font-weight: bold;
     }
-
-
-
 }
 
 
