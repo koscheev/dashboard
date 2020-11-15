@@ -35,33 +35,33 @@
         align-items: center;
         margin: auto;
         border: none;
-        
         border-radius: 50px;
         background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
+        cursor: pointer;
     }
 
     &--folder {
-       background: url(/source/img/bar_icons/folder.svg) no-repeat center;
+       background: url(../img/bar_icons/folder.svg) no-repeat center;
     }
 
     &--settings {
-        background: url(/source/img/bar_icons/settings_header.svg) no-repeat center;
+        background: url(../img/bar_icons/settings_header.svg) no-repeat center;
     }
 
     &--upload {
-        background: url(/source/img/bar_icons/upload.svg) no-repeat center;
+        background: url(../img/bar_icons/upload.svg) no-repeat center;
     }
 
     &--planet {
-        background: url(/source/img/bar_icons/planet.svg) no-repeat center;
+        background: url(../img/bar_icons/planet.svg) no-repeat center;
     }
 
     &--letter {
-        background: url(/source/img/bar_icons/letter.svg) no-repeat center;
+        background: url(../img/bar_icons/letter.svg) no-repeat center;
     }
 
     &--img {
-        background: url(/source/img/jpg/Kendall.svg) no-repeat center;
+        background: url(../img/jpg/Kendall.svg) no-repeat center;
     }
 
     &__field {

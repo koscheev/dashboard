@@ -450,23 +450,23 @@ textarea {
 }
 
 .nav--home {
-  background: url(/source/img/bar_icons/home.svg) no-repeat center;
+  background: url(../img/bar_icons/home.svg) no-repeat center;
 }
 
 .nav--stactics {
-  background: url(/source/img/bar_icons/stat.svg) no-repeat center;
+  background: url(../img/bar_icons/stat.svg) no-repeat center;
 }
 
 .nav--users {
-  background: url(/source/img/bar_icons/users.svg) no-repeat center;
+  background: url(../img/bar_icons/users.svg) no-repeat center;
 }
 
 .nav--settings {
-  background: url(/source/img/bar_icons/settings_nav.svg) no-repeat center;
+  background: url(../img/bar_icons/settings_nav.svg) no-repeat center;
 }
 
 .nav--quires {
-  background: url(/source/img/bar_icons/quires.svg) no-repeat center;
+  background: url(../img/bar_icons/quires.svg) no-repeat center;
 }
 
 .nav__titles {
@@ -535,30 +535,31 @@ textarea {
   border-radius: 50px;
   background: -webkit-gradient(linear, right top, left top, from(#FA745A), to(#FD5272));
   background: linear-gradient(to left, #FA745A 0%, #FD5272 100%);
+  cursor: pointer;
 }
 
 .header--folder {
-  background: url(/source/img/bar_icons/folder.svg) no-repeat center;
+  background: url(../img/bar_icons/folder.svg) no-repeat center;
 }
 
 .header--settings {
-  background: url(/source/img/bar_icons/settings_header.svg) no-repeat center;
+  background: url(../img/bar_icons/settings_header.svg) no-repeat center;
 }
 
 .header--upload {
-  background: url(/source/img/bar_icons/upload.svg) no-repeat center;
+  background: url(../img/bar_icons/upload.svg) no-repeat center;
 }
 
 .header--planet {
-  background: url(/source/img/bar_icons/planet.svg) no-repeat center;
+  background: url(../img/bar_icons/planet.svg) no-repeat center;
 }
 
 .header--letter {
-  background: url(/source/img/bar_icons/letter.svg) no-repeat center;
+  background: url(../img/bar_icons/letter.svg) no-repeat center;
 }
 
 .header--img {
-  background: url(/source/img/jpg/Kendall.svg) no-repeat center;
+  background: url(../img/jpg/Kendall.svg) no-repeat center;
 }
 
 .header__field {
@@ -835,6 +836,7 @@ textarea {
   height: 25px;
   border: none;
   background: #ffffff;
+  cursor: pointer;
 }
 
 .main__header-circle {
@@ -843,6 +845,7 @@ textarea {
   color: #C4C4C4;
   border-radius: 50px;
   background: #C4C4C4;
+  cursor: pointer;
 }
 
 .main__header-circle-color {
@@ -1177,7 +1180,7 @@ textarea {
 }
 
 .main__inner-blocks-circle:hover {
-  background: url(/source/img/bar_icons/mark.svg) no-repeat center;
+  background: url(../img/bar_icons/mark.svg) no-repeat center;
   background-color: #FD5D6B;
 }
 
@@ -1206,7 +1209,7 @@ textarea {
 .main__inner-blocks-clock {
   width: 12px;
   height: 12px;
-  background: url(/source/img/bar_icons/clock.svg) no-repeat center;
+  background: url(../img/bar_icons/clock.svg) no-repeat center;
   margin-left: 60px;
 }
 
