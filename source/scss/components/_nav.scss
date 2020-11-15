@@ -1,14 +1,27 @@
 .nav {
-    position: absolute;
-    left: 0;
+    // position: absolute;
+    position: fixed;
+    // display: flex;
+    // flex-direction: column;
+    // left: 0;
     width: 75px;
-    height: 1000px;
+    height: 968px;
     background: linear-gradient( to bottom, #FA745A 0%, #FD5272 100%);
+
+    &__logotype {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        width: 75px;
+        height: 75px;
+        background: #FFFFFF;
+        box-shadow: 5px -5px 12px 5px #DEDEDE;
+    }
 
     &__logo {
         display: block;
         width: 75px;
-        height: 75px;
+        height: 50px;
         padding-top: 15px;
         font-family: 'Sansita Swashed', cursive;
         font-size: 40px;
@@ -18,7 +31,25 @@
         color: #ff3333;    
         background: #FFFFFF;
         cursor: pointer;
-        box-shadow: 5px -5px 12px 5px #DEDEDE;
+        
+    }
+
+    &__hamburger {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        // width: 22px;
+        height: 10px;
+        border: none;
+        background: #FFFFFF;
+    }
+    
+    &__hamburger-line {
+        margin: 0 auto;
+        // width: 12px;
+        height: 2px;
+        color: #C4C4C4;
+        background: #C4C4C4;
     }
 
     &__items {
@@ -28,10 +59,21 @@
     }
 
     &__cards {
+        position: relative;
         width: 75px;
         height: 75px;
         padding-top: 55px;
         cursor: pointer;
+    }
+
+    &__cards:hover::after {
+        position: absolute;
+        content: '';
+        left: 75px;
+        top: calc(50% - 10px);
+        border: 10px solid transparent; 
+        border-left: 6px solid #FD5670;
+
     }
 
     &--home {

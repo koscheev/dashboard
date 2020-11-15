@@ -375,18 +375,25 @@ textarea {
 }
 
 .nav {
-  position: absolute;
-  left: 0;
+  position: fixed;
   width: 75px;
-  height: 1000px;
+  height: 968px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FA745A), to(#FD5272));
   background: linear-gradient(to bottom, #FA745A 0%, #FD5272 100%);
+}
+
+.nav__logotype {
+  width: 75px;
+  height: 75px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px -5px 12px 5px #DEDEDE;
+          box-shadow: 5px -5px 12px 5px #DEDEDE;
 }
 
 .nav__logo {
   display: block;
   width: 75px;
-  height: 75px;
+  height: 50px;
   padding-top: 15px;
   font-family: 'Sansita Swashed', cursive;
   font-size: 40px;
@@ -396,8 +403,27 @@ textarea {
   color: #ff3333;
   background: #FFFFFF;
   cursor: pointer;
-  -webkit-box-shadow: 5px -5px 12px 5px #DEDEDE;
-          box-shadow: 5px -5px 12px 5px #DEDEDE;
+}
+
+.nav__hamburger {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10px;
+  border: none;
+  background: #FFFFFF;
+}
+
+.nav__hamburger-line {
+  margin: 0 auto;
+  height: 2px;
+  color: #C4C4C4;
+  background: #C4C4C4;
 }
 
 .nav__items {
@@ -407,10 +433,20 @@ textarea {
 }
 
 .nav__cards {
+  position: relative;
   width: 75px;
   height: 75px;
   padding-top: 55px;
   cursor: pointer;
+}
+
+.nav__cards:hover::after {
+  position: absolute;
+  content: '';
+  left: 75px;
+  top: calc(50% - 10px);
+  border: 10px solid transparent;
+  border-left: 6px solid #FD5670;
 }
 
 .nav--home {
@@ -576,7 +612,11 @@ textarea {
   font-size: 15px;
   width: 130px;
   height: 20px;
-  color: #FD4E75;
+  color: #777777;
+}
+
+.header__names-color {
+  color: #FD576F;
 }
 
 .header__function {
@@ -584,19 +624,10 @@ textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  width: 110px;
-  height: 20px;
   color: #BFBFBF;
 }
 
 .header--size {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 120px;
   height: 75px;
   padding-left: 20px;
@@ -1214,12 +1245,19 @@ textarea {
 }
 
 .aside__blocks {
+  position: relative;
   width: 90px;
   height: 48px;
+  cursor: pointer;
 }
 
-.aside__blocks:hover {
-  background: #C53E5B;
+.aside__blocks:hover::after {
+  position: absolute;
+  content: '';
+  top: 48px;
+  left: calc(50% - 10px);
+  border: 10px solid transparent;
+  border-top: 6px solid #FD5670;
 }
 
 .aside--people {
@@ -1385,12 +1423,42 @@ textarea {
     width: 30px;
     height: 30px;
   }
-  .nav__logo {
+  .nav__logotype {
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  .nav__logo {
     padding-top: 0px;
     width: 30px;
-    height: 30px;
-    font-size: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+  .nav__hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav__hamburger-line {
+    width: 12px;
+    height: 1px;
+    color: #C4C4C4;
+    background: #C4C4C4;
   }
   .nav__items {
     display: none;
@@ -1445,7 +1513,10 @@ textarea {
     display: none;
   }
   .header--size {
-    display: none;
+    width: auto;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
   }
   .header__footer {
     margin-top: 10px;
@@ -1479,6 +1550,9 @@ textarea {
   }
   .main__inner-blocks {
     height: auto;
+  }
+  .main__inner-blocks-clock {
+    display: none;
   }
   .main__footer {
     height: auto;
